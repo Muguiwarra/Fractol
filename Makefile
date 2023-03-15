@@ -6,7 +6,7 @@
 #    By: nabboune <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/12 01:04:10 by nabboune          #+#    #+#              #
-#    Updated: 2023/03/13 23:50:12 by nabboune         ###   ########.fr        #
+#    Updated: 2023/03/14 22:18:24 by nabboune         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,10 @@ CFLAGS = #-Wall -Wextra -Werror
 
 MLX_FLAGS = -lmlx -framework OpenGL -framework AppKit
 
-SRCS =	fractol.c
+SRCS =	fractol.c \
+		fractals.c \
+		zoom.c \
+		mlx_help.c
 
 # SRCS_BONUS =
 
