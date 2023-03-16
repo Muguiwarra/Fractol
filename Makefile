@@ -6,7 +6,7 @@
 #    By: nabboune <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/12 01:04:10 by nabboune          #+#    #+#              #
-#    Updated: 2023/03/16 09:02:42 by nabboune         ###   ########.fr        #
+#    Updated: 2023/03/16 23:08:18 by nabboune         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror
 
-MLX_FLAGS = -lmlx -framework OpenGL -framework AppKit
+MLX_FLAGS = -lmlx -framework OpenGL -framework AppKit -Ofast
 
 SRCS =	fractol.c \
 		fractals.c \

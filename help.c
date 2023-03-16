@@ -6,7 +6,7 @@
 /*   By: nabboune <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 08:53:55 by nabboune          #+#    #+#             */
-/*   Updated: 2023/03/16 08:58:49 by nabboune         ###   ########.fr       */
+/*   Updated: 2023/03/17 00:12:22 by nabboune         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,8 @@ void	ft_error(void)
 	ft_printf("PLEASE ENTER A VALID ARGUMENT !\n");
 	ft_printf("\033[0m");
 	ft_printf("\033[0;36m");
-	ft_printf("You'll find bellow a list of valid fractals \
-		that can be passed as an argument :\n");
+	ft_printf("You'll find bellow a list of valid fractals");
+	ft_printf(" that can be passed as an argument :\n");
 	ft_printf("\033[0m");
 	ft_printf("\033[0;32m");
 	ft_printf("\t==> Mandelbrot\n");
